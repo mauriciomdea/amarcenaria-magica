@@ -12,10 +12,22 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 ERRORS: list[str] = []
+IGNORED_TOP_LEVEL_DIRS = {"_site", "vendor", ".bundle", ".jekyll-cache"}
 
 
 def error(message: str) -> None:
     ERRORS.append(message)
+
+
+def project_files(*patterns: str) -> list[Path]:
+    """Return first-party files without generated output or installed dependencies."""
+    files: set[Path] = set()
+    for pattern in patterns:
+        for path in ROOT.glob(pattern):
+            relative = path.relative_to(ROOT)
+            if path.is_file() and relative.parts[0] not in IGNORED_TOP_LEVEL_DIRS:
+                files.add(path)
+    return sorted(files)
 
 
 def check_required_files() -> None:
@@ -68,8 +80,8 @@ def check_media() -> dict:
 
 def check_media_references(manifest: dict) -> None:
     pattern = re.compile(r"(?:key=|hero_image:\s*|image:\s*|card_image:\s*|^\s*-\s+)(?:['\"])?([a-z]+/[a-z0-9-]+)", re.MULTILINE)
-    source_files = list(ROOT.glob("*.html")) + list(ROOT.glob("**/*.html")) + list(ROOT.glob("_projects/*.md")) + list(ROOT.glob("_decor/*.md"))
-    for path in set(source_files):
+    source_files = project_files("*.html", "**/*.html", "_projects/*.md", "_decor/*.md")
+    for path in source_files:
         text = path.read_text(encoding="utf-8")
         for key in pattern.findall(text):
             if key not in manifest and not key.startswith(("moveis/", "decoracao/", "quem/", "privacidade/")):
@@ -93,13 +105,8 @@ def check_liquid_balance() -> None:
         "capture": "endcapture",
     }
     closing = set(block_pairs.values())
-    template_files = (
-        list(ROOT.glob("*.html"))
-        + list(ROOT.glob("**/*.html"))
-        + list(ROOT.glob("_projects/*.md"))
-        + list(ROOT.glob("_decor/*.md"))
-    )
-    for path in set(template_files):
+    template_files = project_files("*.html", "**/*.html", "_projects/*.md", "_decor/*.md")
+    for path in template_files:
         text = path.read_text(encoding="utf-8")
         if text.count("{{") != text.count("}}"):
             error(f"Unbalanced Liquid output braces: {path.relative_to(ROOT)}")

@@ -2,8 +2,7 @@ _site/
 .jekyll-cache/
 .sass-cache/
 .bundle/
-vendor/
+/vendor/
 *.gem
 .DS_Store
 Thumbs.db
-
