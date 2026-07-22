@@ -14,6 +14,18 @@ SITE = ROOT / "_site"
 ERRORS: list[str] = []
 
 
+def _read_baseurl() -> str:
+    config = ROOT / "_config.yml"
+    for line in config.read_text(encoding="utf-8").splitlines():
+        if line.startswith("baseurl:"):
+            value = line.split(":", 1)[1].strip().strip("\"'")
+            return value.rstrip("/")
+    return ""
+
+
+BASEURL = _read_baseurl()
+
+
 class PageParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -77,7 +89,12 @@ def _target_for(page: Path, reference: str) -> Path | None:
     if not path:
         return None
 
-    target = SITE / path.lstrip("/") if path.startswith("/") else page.parent / path
+    if path.startswith("/"):
+        if BASEURL and (path == BASEURL or path.startswith(f"{BASEURL}/")):
+            path = path[len(BASEURL) :] or "/"
+        target = SITE / path.lstrip("/")
+    else:
+        target = page.parent / path
     if path.endswith("/"):
         target /= "index.html"
     elif target.is_dir():
