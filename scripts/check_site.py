@@ -34,7 +34,6 @@ def check_required_files() -> None:
     required = [
         "_config.yml",
         "Gemfile",
-        "CNAME",
         "index.html",
         "moveis-sob-medida/index.html",
         "decoracao/index.html",
