@@ -1,0 +1,14 @@
+<section class="section-pad gallery-section">
+  <div class="container site-container">
+    {% if include.heading %}<p class="eyebrow">Galeria</p><h2 class="section-title">{{ include.heading }}</h2>{% endif %}
+    <div class="gallery-grid">
+      {% for key in include.items %}
+        {% assign media = site.data.media[key] %}
+        <button class="gallery-item gallery-trigger" type="button" data-full="{{ media.fallback | relative_url }}" data-alt="{{ media.alt | escape }}" aria-label="Ampliar: {{ media.alt | escape }}">
+          {% include image.html key=key class='gallery-image' sizes='(min-width: 992px) 520px, 100vw' %}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+

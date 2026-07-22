@@ -1,0 +1,33 @@
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+    <div class="container site-container">
+      <a class="navbar-brand brand-lockup" href="{{ '/' | relative_url }}" aria-label="A Marcenaria Mágica — página inicial">
+        <img src="{{ '/assets/brand/logo-mark.svg' | relative_url }}" width="54" height="54" alt="" aria-hidden="true">
+        <span>
+          <strong>A Marcenaria Mágica</strong>
+          <small>por Mauricio Almeida</small>
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Abrir menu">
+        <span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          {% for item in site.data.navigation %}
+            {% assign is_active = false %}
+            {% if page.url == item.url %}{% assign is_active = true %}{% endif %}
+            {% if item.url != '/' and page.url contains item.url %}{% assign is_active = true %}{% endif %}
+            <li class="nav-item">
+              <a class="nav-link{% if is_active %} active{% endif %}" {% if is_active %}aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.label }}</a>
+            </li>
+          {% endfor %}
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-dark btn-sm nav-cta" data-track="whatsapp_click" data-track-location="header" href="https://wa.me/{{ site.data.site.contact.whatsapp_number }}?text={{ 'Olá, Mauricio! Conheci o site da A Marcenaria Mágica e gostaria de conversar.' | url_encode }}" target="_blank" rel="noopener">Fale comigo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+

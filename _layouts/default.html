@@ -1,0 +1,17 @@
+{% include head.html %}
+<body data-ga4-id="{{ site.data.site.analytics.ga4_id }}" data-baseurl="{{ site.baseurl }}">
+  {% include header.html %}
+  <main id="conteudo">{{ content }}</main>
+  {% include footer.html %}
+  {% include whatsapp-floating.html %}
+  {% include consent.html %}
+  <dialog class="gallery-dialog" id="galleryDialog" aria-label="Visualização ampliada da imagem">
+    <button class="gallery-dialog-close" type="button" data-close-gallery aria-label="Fechar imagem">{% include icon.html name='close' %}</button>
+    <img id="galleryDialogImage" src="" alt="">
+    <p id="galleryDialogCaption"></p>
+  </dialog>
+  <script src="{{ '/assets/vendor/bootstrap/bootstrap.bundle.min.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+<a class="project-card" href="{{ include.project.url | relative_url }}">
+  <div class="card-media">{% include image.html key=include.project.card_image class='card-image' sizes='(min-width: 768px) 520px, 100vw' %}</div>
+  <div class="card-body-custom">
+    <p class="eyebrow">{{ include.project.environment }}</p>
+    <h3>{{ include.project.title }}</h3>
+    <p>{{ include.project.summary }}</p>
+    <span class="text-link">Conheça o projeto {% include icon.html name='arrow' %}</span>
+  </div>
+</a>
+

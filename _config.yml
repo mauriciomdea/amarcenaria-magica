@@ -1,0 +1,48 @@
+title: A Marcenaria Mágica
+tagline: Onde madeira e imaginação ganham forma.
+description: Móveis sob medida e peças autorais em madeira, criados por Mauricio Almeida com cuidado, carinho e capricho no Rio de Janeiro.
+url: https://amarcenariamagica.com.br
+baseurl: ""
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+markdown: kramdown
+permalink: pretty
+strict_front_matter: true
+
+collections:
+  projects:
+    output: true
+    permalink: /moveis-sob-medida/:name/
+  decor:
+    output: true
+    permalink: /decoracao/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: projects/table-hero
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: decor
+    values:
+      layout: decor
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+

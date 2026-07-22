@@ -1,0 +1,9 @@
+<section class="section-pad cta-band">
+  <div class="container site-container">
+    <div class="cta-band-inner">
+      <div><p class="eyebrow">Fale diretamente comigo</p><h2>{{ include.title }}</h2><p>{{ include.text }}</p></div>
+      <a class="btn btn-light btn-lg" data-track="whatsapp_click" data-track-location="{{ include.location }}" href="https://wa.me/{{ site.data.site.contact.whatsapp_number }}?text={{ 'Olá, Mauricio! Gostaria de conversar sobre um projeto sob medida.' | url_encode }}" target="_blank" rel="noopener">Começar uma conversa {% include icon.html name='arrow' %}</a>
+    </div>
+  </div>
+</section>
+

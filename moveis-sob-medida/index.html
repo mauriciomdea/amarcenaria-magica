@@ -1,0 +1,79 @@
+---
+title: Móveis Sob Medida
+description: Projetos de móveis sob medida com atendimento direto, uso consciente de madeira maciça, MDF e ferragens de qualidade no Rio de Janeiro.
+hero_image: projects/kitchen-white-wood-hero
+image: projects/kitchen-white-wood-hero
+gallery:
+  - projects/table-hero
+  - projects/compact-kitchen-2020
+  - projects/kitchen-upper-lower
+  - projects/kitchen-white-countertop
+  - projects/bathroom-shelf
+---
+<header class="page-hero">
+  <div class="container site-container">
+    <div class="row align-items-end gy-4">
+      <div class="col-lg-7"><p class="eyebrow">Móveis Sob Medida</p><h1>Seu espaço não precisa parecer com todos os outros.</h1></div>
+      <div class="col-lg-5"><p class="lead mb-0">Projeto, materiais e detalhes escolhidos para a sua rotina — com conversa direta com quem desenha, fabrica e instala.</p></div>
+    </div>
+    <div class="page-hero-media">{% include image.html key='projects/kitchen-white-wood-hero' class='page-hero-image' eager=true sizes='1080px' %}</div>
+  </div>
+</header>
+
+<section class="section-pad bg-white" aria-labelledby="whyTitle">
+  <div class="container site-container">
+    <div class="row gy-5 align-items-start">
+      <div class="col-lg-5"><p class="eyebrow">Além do padrão</p><h2 id="whyTitle">O material certo para cada função.</h2></div>
+      <div class="col-lg-6 offset-lg-1">
+        <p class="lead">Madeira maciça, MDF, compensado, metal e boas ferragens podem conviver no mesmo projeto. A escolha vem do uso, não de uma receita pronta.</p>
+        <p>O objetivo é chegar a uma solução durável, bonita e viável, respeitando o ambiente e a forma como você realmente vive. Isso também significa explicar escolhas e limites com transparência.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" aria-labelledby="projectsTitle">
+  <div class="container site-container">
+    <p class="eyebrow">Estudos de caso</p><h2 class="section-title" id="projectsTitle">Dois espaços, duas respostas completamente diferentes.</h2>
+    <div class="project-grid">
+      {% assign ordered_projects = site.projects | sort: 'order' %}
+      {% for project in ordered_projects %}{% include project-card.html project=project %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include gallery.html items=page.gallery heading='Outras soluções sob medida' %}
+
+<section class="section-pad" aria-labelledby="processFurnitureTitle">
+  <div class="container site-container">
+    <div class="row gy-5">
+      <div class="col-lg-5"><p class="eyebrow">Um único responsável</p><h2 id="processFurnitureTitle">Você conversa comigo em todas as etapas.</h2><p class="lead mt-4">A tecnologia organiza o processo; o olhar e as mãos continuam sendo artesanais.</p></div>
+      <div class="col-lg-6 offset-lg-1 process-list">
+        <div class="process-step"><h3>Conversa</h3><p>Necessidades, referências, região e prazo desejado.</p></div>
+        <div class="process-step"><h3>Visita e medição</h3><p>Levantamento do espaço, instalações e condições de acesso.</p></div>
+        <div class="process-step"><h3>Projeto e proposta</h3><p>Desenhos, escolhas de materiais, ferragens e escopo fechado.</p></div>
+        <div class="process-step"><h3>Fabricação</h3><p>Execução acompanhada pessoalmente, com atualizações quando fizer sentido.</p></div>
+        <div class="process-step"><h3>Instalação</h3><p>Montagem, ajustes e entrega do ambiente pronto para o uso.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad briefing-section" id="briefing" aria-labelledby="briefingTitle">
+  <div class="container site-container">
+    <div class="row gy-5">
+      <div class="col-lg-5"><p class="eyebrow">Comece por aqui</p><h2 id="briefingTitle">Conte um pouco sobre o que você imagina.</h2><p class="lead mt-4">As respostas serão formatadas e abertas no seu WhatsApp. Nada é salvo pelo site.</p></div>
+      <div class="col-lg-6 offset-lg-1">
+        <form class="briefing-card" id="briefingForm" data-whatsapp="{{ site.data.site.contact.whatsapp_number }}">
+          <div class="mb-3"><label class="form-label" for="briefingName">Seu nome</label><input class="form-control" id="briefingName" name="name" type="text" autocomplete="name" required maxlength="80"></div>
+          <div class="mb-3"><label class="form-label" for="briefingRegion">Região ou bairro</label><input class="form-control" id="briefingRegion" name="region" type="text" autocomplete="address-level3" required maxlength="100" placeholder="Ex.: Recreio dos Bandeirantes"></div>
+          <div class="mb-3"><label class="form-label" for="briefingProject">Ambiente ou móvel</label><select class="form-select" id="briefingProject" name="project" required><option value="" selected disabled>Selecione</option><option>Cozinha</option><option>Quarto ou closet</option><option>Sala</option><option>Home office</option><option>Banheiro</option><option>Móvel avulso</option><option>Outro</option></select></div>
+          <div class="mb-3"><label class="form-label" for="briefingTimeline">Prazo desejado</label><select class="form-select" id="briefingTimeline" name="timeline" required><option value="" selected disabled>Selecione</option><option>Até 3 meses</option><option>De 3 a 6 meses</option><option>Mais de 6 meses</option><option>Ainda estou pesquisando</option></select></div>
+          <div class="mb-4"><label class="form-label" for="briefingDescription">O que você precisa?</label><textarea class="form-control" id="briefingDescription" name="description" required maxlength="1200" placeholder="Conte sobre o espaço, o uso e o que gostaria de melhorar."></textarea></div>
+          <button class="btn btn-dark btn-lg w-100" type="submit">Enviar pelo WhatsApp {% include icon.html name='arrow' %}</button>
+          <p class="form-note mt-3">Ao continuar, o WhatsApp será aberto em uma nova janela. O envio só acontece quando você confirmar por lá.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

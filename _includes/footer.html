@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="container site-container">
+    <div class="row gy-5">
+      <div class="col-lg-5">
+        <a class="footer-brand" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/brand/logo-mark.svg' | relative_url }}" width="58" height="58" alt="">
+          <span><strong>A Marcenaria Mágica</strong><small>{{ site.tagline }}</small></span>
+        </a>
+        <p class="footer-note">Marcenaria autoral e móveis sob medida, criados com atendimento direto no Rio de Janeiro.</p>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h2 class="footer-heading">Explore</h2>
+        <ul class="footer-links">
+          {% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>{% endfor %}
+          <li><a href="{{ '/privacidade/' | relative_url }}">Privacidade</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h2 class="footer-heading">Contato</h2>
+        <ul class="footer-links">
+          <li><a data-track="whatsapp_click" data-track-location="footer" href="https://wa.me/{{ site.data.site.contact.whatsapp_number }}" target="_blank" rel="noopener">{{ site.data.site.contact.whatsapp_display }}</a></li>
+          <li><a data-track="email_click" href="mailto:{{ site.data.site.contact.email }}">{{ site.data.site.contact.email }}</a></li>
+          <li><a href="{{ site.data.site.contact.instagram_url }}" target="_blank" rel="noopener">Instagram @{{ site.data.site.contact.instagram_handle }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {{ site.time | date: '%Y' }} A Marcenaria Mágica.</p>
+      <button class="link-button" type="button" data-open-consent>Preferências de cookies</button>
+    </div>
+  </div>
+</footer>
+

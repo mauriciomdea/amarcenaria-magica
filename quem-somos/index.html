@@ -1,0 +1,45 @@
+---
+title: Quem somos
+description: Conheça Mauricio Almeida, fundador da A Marcenaria Mágica, marceneiro desde 2018 com formação em tecnologia e marcenaria fina.
+hero_image: about/mauricio-work
+image: about/mauricio-work
+---
+<header class="page-hero">
+  <div class="container site-container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6"><p class="eyebrow">Quem somos</p><h1>Uma oficina pequena por escolha. Um cuidado enorme por princípio.</h1><p class="lead">A Marcenaria Mágica é Mauricio Almeida — com o apoio de ferramentas, tecnologia e uma rede de bons parceiros quando o projeto pede.</p></div>
+      <div class="col-lg-5 offset-lg-1">{% include image.html key='about/mauricio-work' class='about-portrait' eager=true sizes='(min-width: 992px) 450px, 100vw' %}</div>
+    </div>
+  </div>
+</header>
+
+<section class="section-pad bg-white" aria-labelledby="storyTitle">
+  <div class="container site-container">
+    <div class="row gy-5">
+      <div class="col-lg-7"><p class="eyebrow">Minha história</p><h2 id="storyTitle">Da análise de sistemas à marcenaria.</h2><p class="lead mt-4">Sou Mauricio Almeida, Analista de Sistemas de formação, e trabalho como marceneiro desde 2018.</p><p>A tecnologia continua presente: ajuda a planejar, documentar, simular e manter cada projeto organizado. Mas é na relação direta com o cliente e no trabalho de oficina que encontro a medida das coisas — o toque, o encaixe, o veio e o tempo que um bom acabamento pede.</p><p>Escolhi trabalhar sozinho para preservar essa proximidade. Quem conversa com você é a mesma pessoa que mede, projeta, fabrica e acompanha a instalação.</p></div>
+      <aside class="col-lg-4 offset-lg-1"><p class="eyebrow">Formação em marcenaria</p><ul class="training-list"><li><strong>Marcenaria fina tradicional</strong><br><span class="text-muted-warm">Fernando Belchior</span></li><li><strong>Marcenaria e cultura da madeira</strong><br><span class="text-muted-warm">Daniel Stopa · StopaLab</span></li><li><strong>Mobiliário moderno</strong><br><span class="text-muted-warm">OficinaLab</span></li></ul></aside>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" aria-labelledby="trainingTitle">
+  <div class="container site-container">
+    <p class="eyebrow">Aprender fazendo</p><h2 class="section-title" id="trainingTitle">A base tradicional continua em cada projeto.</h2>
+    <div class="gallery-grid">
+      {% assign about_gallery = 'about/course-collaboration|about/final-table|about/final-table-affection|about/wood-selection' | split: '|' %}
+      {% for key in about_gallery %}{% assign media = site.data.media[key] %}<button class="gallery-item gallery-trigger" type="button" data-full="{{ media.fallback | relative_url }}" data-alt="{{ media.alt | escape }}" aria-label="Ampliar: {{ media.alt | escape }}">{% include image.html key=key class='gallery-image' sizes='(min-width: 992px) 520px, 100vw' %}</button>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-white" aria-labelledby="videoTitle">
+  <div class="container site-container">
+    <div class="row gy-5 align-items-center">
+      <div class="col-lg-5"><p class="eyebrow">Na bancada</p><h2 id="videoTitle">Um registro do curso de marcenaria fina.</h2><p class="lead mt-4">Trabalho manual, atenção ao detalhe e muito aprendizado ao lado do mestre e dos colegas.</p><p class="text-muted-warm">O vídeo tem som ambiente da oficina e não contém uma fala necessária para compreender a cena.</p></div>
+      <div class="col-lg-6 offset-lg-1"><div class="video-frame"><video controls preload="metadata" playsinline poster="{{ '/assets/video/mauricio-marcenaria-fina-poster.jpg' | relative_url }}"><source src="{{ '/assets/video/mauricio-marcenaria-fina.mp4' | relative_url }}" type="video/mp4">Seu navegador não reproduz este vídeo. <a href="{{ '/assets/video/mauricio-marcenaria-fina.mp4' | relative_url }}">Baixe o arquivo MP4</a>.</video></div></div>
+    </div>
+  </div>
+</section>
+
+{% include project-cta.html title='Vamos transformar uma necessidade em projeto?' text='Você fala comigo, Mauricio, desde a primeira mensagem.' location='about-bottom' %}
+

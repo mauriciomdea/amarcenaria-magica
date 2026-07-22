@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="decor-detail section-pad">
+  <div class="container site-container">
+    <a class="back-link" href="{{ '/decoracao/' | relative_url }}">← Todas as peças</a>
+    <div class="row gy-5 align-items-center mt-1">
+      <div class="col-lg-7">
+        {% include image.html key=page.image class='decor-detail-image' eager=true sizes='(min-width: 992px) 650px, 100vw' %}
+      </div>
+      <div class="col-lg-5">
+        <span class="status-badge status-{{ page.status | slugify }}">{{ page.status_label }}</span>
+        <p class="eyebrow mt-4">Peça autoral</p>
+        <h1>{{ page.title }}</h1>
+        <p class="lead">{{ page.description }}</p>
+        <h2 class="h5 mt-4">Materiais</h2>
+        <p>{{ page.materials | join: ' · ' }}</p>
+        {% if page.marketplace_url and page.marketplace_url != '' %}
+          <a class="btn btn-dark" data-track="marketplace_click" href="{{ page.marketplace_url }}" target="_blank" rel="noopener">Ver na loja</a>
+        {% else %}
+          <a class="btn btn-dark" data-track="whatsapp_click" data-track-location="decor-detail" href="https://wa.me/{{ site.data.site.contact.whatsapp_number }}?text={{ page.whatsapp_message | url_encode }}" target="_blank" rel="noopener">{{ page.cta_label }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% include gallery.html items=page.gallery heading='Detalhes que contam a história' %}
+</article>
+

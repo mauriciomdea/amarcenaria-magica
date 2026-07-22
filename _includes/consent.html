@@ -1,0 +1,26 @@
+<section class="consent-panel" id="consentPanel" role="dialog" aria-modal="true" aria-labelledby="consentTitle" aria-describedby="consentDescription" hidden>
+  <div class="consent-inner">
+    <div class="consent-copy">
+      <p class="eyebrow">Sua privacidade</p>
+      <h2 id="consentTitle">Você escolhe como o site usa dados</h2>
+      <p id="consentDescription">Cookies necessários mantêm suas preferências. Analytics só será carregado se você autorizar.</p>
+      <div class="consent-customize" id="consentCustomize" hidden>
+        <div class="consent-option">
+          <span><strong>Necessários</strong><small>Sempre ativos para lembrar sua escolha.</small></span>
+          <input class="form-check-input" type="checkbox" checked disabled aria-label="Cookies necessários, sempre ativos">
+        </div>
+        <label class="consent-option" for="analyticsConsent">
+          <span><strong>Analytics</strong><small>Ajuda a entender o uso do site sem enviar o conteúdo do briefing.</small></span>
+          <input class="form-check-input" id="analyticsConsent" type="checkbox">
+        </label>
+      </div>
+    </div>
+    <div class="consent-actions">
+      <button class="btn btn-outline-dark" type="button" data-consent="reject">Rejeitar</button>
+      <button class="btn btn-outline-dark" type="button" data-consent="customize">Personalizar</button>
+      <button class="btn btn-outline-dark" type="button" data-consent="accept">Aceitar</button>
+      <button class="btn btn-dark consent-save" type="button" data-consent="save" hidden>Salvar escolhas</button>
+    </div>
+    <a class="consent-privacy" href="{{ '/privacidade/' | relative_url }}">Leia a política de privacidade</a>
+  </div>
+</section>

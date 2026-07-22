@@ -1,0 +1,1177 @@
+{
+  "projects/table-hero": {
+    "alt": "Mesa de madeira maciça com veios marcantes e base metálica preta.",
+    "width": 1562,
+    "height": 1562,
+    "variants": [
+      {
+        "width": 480,
+        "height": 480,
+        "avif": "/assets/images/generated/projects/table-hero-480.avif",
+        "webp": "/assets/images/generated/projects/table-hero-480.webp",
+        "jpg": "/assets/images/generated/projects/table-hero-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 800,
+        "avif": "/assets/images/generated/projects/table-hero-800.avif",
+        "webp": "/assets/images/generated/projects/table-hero-800.webp",
+        "jpg": "/assets/images/generated/projects/table-hero-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1200,
+        "avif": "/assets/images/generated/projects/table-hero-1200.avif",
+        "webp": "/assets/images/generated/projects/table-hero-1200.webp",
+        "jpg": "/assets/images/generated/projects/table-hero-1200.jpg"
+      },
+      {
+        "width": 1562,
+        "height": 1562,
+        "avif": "/assets/images/generated/projects/table-hero-1562.avif",
+        "webp": "/assets/images/generated/projects/table-hero-1562.webp",
+        "jpg": "/assets/images/generated/projects/table-hero-1562.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/table-hero-1562.jpg"
+  },
+  "projects/kitchen-white-wood-wide": {
+    "alt": "Vista ampla de cozinha compacta com armários brancos e nichos em madeira.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-wide-480.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-wide-480.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-wide-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-wide-800.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-wide-800.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-wide-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-wide-1200.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-wide-1200.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-wide-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-wide-1600.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-wide-1600.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-wide-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/kitchen-white-wood-wide-1600.jpg"
+  },
+  "projects/kitchen-white-wood-hero": {
+    "alt": "Cozinha compacta com marcenaria branca, puxadores e nichos em madeira.",
+    "width": 1600,
+    "height": 2069,
+    "variants": [
+      {
+        "width": 480,
+        "height": 621,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-hero-480.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-hero-480.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-hero-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1034,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-hero-800.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-hero-800.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-hero-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1552,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-hero-1200.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-hero-1200.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-hero-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2069,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-hero-1600.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-hero-1600.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-hero-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/kitchen-white-wood-hero-1600.jpg"
+  },
+  "projects/kitchen-white-wood-angle": {
+    "alt": "Cozinha sob medida com marcenaria branca, puxadores e nichos em madeira.",
+    "width": 1600,
+    "height": 2133,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-angle-480.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-angle-480.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-angle-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-angle-800.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-angle-800.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-angle-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-angle-1200.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-angle-1200.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-angle-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-angle-1600.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-angle-1600.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-angle-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/kitchen-white-wood-angle-1600.jpg"
+  },
+  "projects/kitchen-white-wood-detail": {
+    "alt": "Torre de cozinha com armários brancos, nichos de madeira e espaço para micro-ondas.",
+    "width": 1600,
+    "height": 2133,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-detail-480.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-detail-480.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-detail-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-detail-800.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-detail-800.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-detail-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-detail-1200.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-detail-1200.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-detail-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "avif": "/assets/images/generated/projects/kitchen-white-wood-detail-1600.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-wood-detail-1600.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-wood-detail-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/kitchen-white-wood-detail-1600.jpg"
+  },
+  "projects/modular-workstation-open-a": {
+    "alt": "Estação modular branca com superfícies retráteis abertas sob as janelas.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-a-480.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-a-480.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-a-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-a-800.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-a-800.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-a-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-a-1200.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-a-1200.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-a-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-a-1600.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-a-1600.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-a-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/modular-workstation-open-a-1600.jpg"
+  },
+  "projects/modular-workstation-open-b": {
+    "alt": "Vista lateral da estação de trabalho modular com tampos deslizantes.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-b-480.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-b-480.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-b-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-b-800.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-b-800.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-b-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-b-1200.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-b-1200.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-b-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/projects/modular-workstation-open-b-1600.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-open-b-1600.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-open-b-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/modular-workstation-open-b-1600.jpg"
+  },
+  "projects/modular-workstation-closed": {
+    "alt": "Estação modular fechada formando um móvel baixo e contínuo.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/projects/modular-workstation-closed-480.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-closed-480.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-closed-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/projects/modular-workstation-closed-800.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-closed-800.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-closed-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/projects/modular-workstation-closed-1200.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-closed-1200.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-closed-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/projects/modular-workstation-closed-1600.avif",
+        "webp": "/assets/images/generated/projects/modular-workstation-closed-1600.webp",
+        "jpg": "/assets/images/generated/projects/modular-workstation-closed-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/modular-workstation-closed-1600.jpg"
+  },
+  "projects/compact-kitchen-2020": {
+    "alt": "Armários inferiores cinza-claro feitos sob medida para uma cozinha compacta.",
+    "width": 1600,
+    "height": 2133,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "/assets/images/generated/projects/compact-kitchen-2020-480.avif",
+        "webp": "/assets/images/generated/projects/compact-kitchen-2020-480.webp",
+        "jpg": "/assets/images/generated/projects/compact-kitchen-2020-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "avif": "/assets/images/generated/projects/compact-kitchen-2020-800.avif",
+        "webp": "/assets/images/generated/projects/compact-kitchen-2020-800.webp",
+        "jpg": "/assets/images/generated/projects/compact-kitchen-2020-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "avif": "/assets/images/generated/projects/compact-kitchen-2020-1200.avif",
+        "webp": "/assets/images/generated/projects/compact-kitchen-2020-1200.webp",
+        "jpg": "/assets/images/generated/projects/compact-kitchen-2020-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "avif": "/assets/images/generated/projects/compact-kitchen-2020-1600.avif",
+        "webp": "/assets/images/generated/projects/compact-kitchen-2020-1600.webp",
+        "jpg": "/assets/images/generated/projects/compact-kitchen-2020-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/compact-kitchen-2020-1600.jpg"
+  },
+  "projects/kitchen-upper-lower": {
+    "alt": "Cozinha com armários superiores brancos e inferiores com acabamento amadeirado.",
+    "width": 1432,
+    "height": 1782,
+    "variants": [
+      {
+        "width": 480,
+        "height": 597,
+        "avif": "/assets/images/generated/projects/kitchen-upper-lower-480.avif",
+        "webp": "/assets/images/generated/projects/kitchen-upper-lower-480.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-upper-lower-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 996,
+        "avif": "/assets/images/generated/projects/kitchen-upper-lower-800.avif",
+        "webp": "/assets/images/generated/projects/kitchen-upper-lower-800.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-upper-lower-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1493,
+        "avif": "/assets/images/generated/projects/kitchen-upper-lower-1200.avif",
+        "webp": "/assets/images/generated/projects/kitchen-upper-lower-1200.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-upper-lower-1200.jpg"
+      },
+      {
+        "width": 1432,
+        "height": 1782,
+        "avif": "/assets/images/generated/projects/kitchen-upper-lower-1432.avif",
+        "webp": "/assets/images/generated/projects/kitchen-upper-lower-1432.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-upper-lower-1432.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/kitchen-upper-lower-1432.jpg"
+  },
+  "projects/kitchen-white-countertop": {
+    "alt": "Cozinha branca sob medida com bancada contínua de madeira.",
+    "width": 1600,
+    "height": 1221,
+    "variants": [
+      {
+        "width": 480,
+        "height": 366,
+        "avif": "/assets/images/generated/projects/kitchen-white-countertop-480.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-countertop-480.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-countertop-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 610,
+        "avif": "/assets/images/generated/projects/kitchen-white-countertop-800.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-countertop-800.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-countertop-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 916,
+        "avif": "/assets/images/generated/projects/kitchen-white-countertop-1200.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-countertop-1200.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-countertop-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1221,
+        "avif": "/assets/images/generated/projects/kitchen-white-countertop-1600.avif",
+        "webp": "/assets/images/generated/projects/kitchen-white-countertop-1600.webp",
+        "jpg": "/assets/images/generated/projects/kitchen-white-countertop-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/kitchen-white-countertop-1600.jpg"
+  },
+  "projects/bathroom-shelf": {
+    "alt": "Prateleira de madeira com porta-papel integrada.",
+    "width": 1274,
+    "height": 1726,
+    "variants": [
+      {
+        "width": 480,
+        "height": 650,
+        "avif": "/assets/images/generated/projects/bathroom-shelf-480.avif",
+        "webp": "/assets/images/generated/projects/bathroom-shelf-480.webp",
+        "jpg": "/assets/images/generated/projects/bathroom-shelf-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1084,
+        "avif": "/assets/images/generated/projects/bathroom-shelf-800.avif",
+        "webp": "/assets/images/generated/projects/bathroom-shelf-800.webp",
+        "jpg": "/assets/images/generated/projects/bathroom-shelf-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1626,
+        "avif": "/assets/images/generated/projects/bathroom-shelf-1200.avif",
+        "webp": "/assets/images/generated/projects/bathroom-shelf-1200.webp",
+        "jpg": "/assets/images/generated/projects/bathroom-shelf-1200.jpg"
+      },
+      {
+        "width": 1274,
+        "height": 1726,
+        "avif": "/assets/images/generated/projects/bathroom-shelf-1274.avif",
+        "webp": "/assets/images/generated/projects/bathroom-shelf-1274.webp",
+        "jpg": "/assets/images/generated/projects/bathroom-shelf-1274.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/projects/bathroom-shelf-1274.jpg"
+  },
+  "decor/landscape-wide": {
+    "alt": "Quadro autoral em madeira representando montanhas e um teleférico.",
+    "width": 1440,
+    "height": 1080,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/landscape-wide-480.avif",
+        "webp": "/assets/images/generated/decor/landscape-wide-480.webp",
+        "jpg": "/assets/images/generated/decor/landscape-wide-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/landscape-wide-800.avif",
+        "webp": "/assets/images/generated/decor/landscape-wide-800.webp",
+        "jpg": "/assets/images/generated/decor/landscape-wide-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/landscape-wide-1200.avif",
+        "webp": "/assets/images/generated/decor/landscape-wide-1200.webp",
+        "jpg": "/assets/images/generated/decor/landscape-wide-1200.jpg"
+      },
+      {
+        "width": 1440,
+        "height": 1080,
+        "avif": "/assets/images/generated/decor/landscape-wide-1440.avif",
+        "webp": "/assets/images/generated/decor/landscape-wide-1440.webp",
+        "jpg": "/assets/images/generated/decor/landscape-wide-1440.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/landscape-wide-1440.jpg"
+  },
+  "decor/landscape-detail": {
+    "alt": "Detalhe do relevo, dos veios da madeira e do teleférico gravado no quadro.",
+    "width": 1440,
+    "height": 1080,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/landscape-detail-480.avif",
+        "webp": "/assets/images/generated/decor/landscape-detail-480.webp",
+        "jpg": "/assets/images/generated/decor/landscape-detail-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/landscape-detail-800.avif",
+        "webp": "/assets/images/generated/decor/landscape-detail-800.webp",
+        "jpg": "/assets/images/generated/decor/landscape-detail-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/landscape-detail-1200.avif",
+        "webp": "/assets/images/generated/decor/landscape-detail-1200.webp",
+        "jpg": "/assets/images/generated/decor/landscape-detail-1200.jpg"
+      },
+      {
+        "width": 1440,
+        "height": 1080,
+        "avif": "/assets/images/generated/decor/landscape-detail-1440.avif",
+        "webp": "/assets/images/generated/decor/landscape-detail-1440.webp",
+        "jpg": "/assets/images/generated/decor/landscape-detail-1440.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/landscape-detail-1440.jpg"
+  },
+  "decor/landscape-alt": {
+    "alt": "Paisagem de montanha composta em madeira clara e escura.",
+    "width": 1600,
+    "height": 1101,
+    "variants": [
+      {
+        "width": 480,
+        "height": 330,
+        "avif": "/assets/images/generated/decor/landscape-alt-480.avif",
+        "webp": "/assets/images/generated/decor/landscape-alt-480.webp",
+        "jpg": "/assets/images/generated/decor/landscape-alt-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 551,
+        "avif": "/assets/images/generated/decor/landscape-alt-800.avif",
+        "webp": "/assets/images/generated/decor/landscape-alt-800.webp",
+        "jpg": "/assets/images/generated/decor/landscape-alt-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 826,
+        "avif": "/assets/images/generated/decor/landscape-alt-1200.avif",
+        "webp": "/assets/images/generated/decor/landscape-alt-1200.webp",
+        "jpg": "/assets/images/generated/decor/landscape-alt-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1101,
+        "avif": "/assets/images/generated/decor/landscape-alt-1600.avif",
+        "webp": "/assets/images/generated/decor/landscape-alt-1600.webp",
+        "jpg": "/assets/images/generated/decor/landscape-alt-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/landscape-alt-1600.jpg"
+  },
+  "decor/cat-house-plants": {
+    "alt": "Casinha de madeira para gatos usada também como apoio para um vaso.",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "/assets/images/generated/decor/cat-house-plants-480.avif",
+        "webp": "/assets/images/generated/decor/cat-house-plants-480.webp",
+        "jpg": "/assets/images/generated/decor/cat-house-plants-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "avif": "/assets/images/generated/decor/cat-house-plants-800.avif",
+        "webp": "/assets/images/generated/decor/cat-house-plants-800.webp",
+        "jpg": "/assets/images/generated/decor/cat-house-plants-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "avif": "/assets/images/generated/decor/cat-house-plants-1200.avif",
+        "webp": "/assets/images/generated/decor/cat-house-plants-1200.webp",
+        "jpg": "/assets/images/generated/decor/cat-house-plants-1200.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/cat-house-plants-1200.jpg"
+  },
+  "decor/cat-house-portrait": {
+    "alt": "Gato acomodado na abertura circular de sua casinha de madeira.",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "/assets/images/generated/decor/cat-house-portrait-480.avif",
+        "webp": "/assets/images/generated/decor/cat-house-portrait-480.webp",
+        "jpg": "/assets/images/generated/decor/cat-house-portrait-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "avif": "/assets/images/generated/decor/cat-house-portrait-800.avif",
+        "webp": "/assets/images/generated/decor/cat-house-portrait-800.webp",
+        "jpg": "/assets/images/generated/decor/cat-house-portrait-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "avif": "/assets/images/generated/decor/cat-house-portrait-1200.avif",
+        "webp": "/assets/images/generated/decor/cat-house-portrait-1200.webp",
+        "jpg": "/assets/images/generated/decor/cat-house-portrait-1200.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/cat-house-portrait-1200.jpg"
+  },
+  "decor/board-knife": {
+    "alt": "Tábua artesanal de madeira com faca apoiada sobre os veios naturais.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/board-knife-480.avif",
+        "webp": "/assets/images/generated/decor/board-knife-480.webp",
+        "jpg": "/assets/images/generated/decor/board-knife-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/board-knife-800.avif",
+        "webp": "/assets/images/generated/decor/board-knife-800.webp",
+        "jpg": "/assets/images/generated/decor/board-knife-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/board-knife-1200.avif",
+        "webp": "/assets/images/generated/decor/board-knife-1200.webp",
+        "jpg": "/assets/images/generated/decor/board-knife-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/decor/board-knife-1600.avif",
+        "webp": "/assets/images/generated/decor/board-knife-1600.webp",
+        "jpg": "/assets/images/generated/decor/board-knife-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/board-knife-1600.jpg"
+  },
+  "decor/board-bread-top": {
+    "alt": "Pão fatiado sobre uma tábua artesanal de madeira.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/board-bread-top-480.avif",
+        "webp": "/assets/images/generated/decor/board-bread-top-480.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-top-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/board-bread-top-800.avif",
+        "webp": "/assets/images/generated/decor/board-bread-top-800.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-top-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/board-bread-top-1200.avif",
+        "webp": "/assets/images/generated/decor/board-bread-top-1200.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-top-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/decor/board-bread-top-1600.avif",
+        "webp": "/assets/images/generated/decor/board-bread-top-1600.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-top-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/board-bread-top-1600.jpg"
+  },
+  "decor/board-bread-angle": {
+    "alt": "Vista baixa da tábua artesanal com bordas arredondadas.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/board-bread-angle-480.avif",
+        "webp": "/assets/images/generated/decor/board-bread-angle-480.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-angle-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/board-bread-angle-800.avif",
+        "webp": "/assets/images/generated/decor/board-bread-angle-800.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-angle-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/board-bread-angle-1200.avif",
+        "webp": "/assets/images/generated/decor/board-bread-angle-1200.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-angle-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/decor/board-bread-angle-1600.avif",
+        "webp": "/assets/images/generated/decor/board-bread-angle-1600.webp",
+        "jpg": "/assets/images/generated/decor/board-bread-angle-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/board-bread-angle-1600.jpg"
+  },
+  "decor/candle-holder-wide": {
+    "alt": "Porta-velas linear de madeira com três velas.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/candle-holder-wide-480.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-wide-480.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-wide-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/candle-holder-wide-800.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-wide-800.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-wide-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/candle-holder-wide-1200.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-wide-1200.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-wide-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/decor/candle-holder-wide-1600.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-wide-1600.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-wide-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/candle-holder-wide-1600.jpg"
+  },
+  "decor/candle-holder-detail": {
+    "alt": "Detalhe dos encaixes e veios de um porta-velas de madeira.",
+    "width": 1600,
+    "height": 2133,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "/assets/images/generated/decor/candle-holder-detail-480.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-detail-480.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-detail-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "avif": "/assets/images/generated/decor/candle-holder-detail-800.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-detail-800.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-detail-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "avif": "/assets/images/generated/decor/candle-holder-detail-1200.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-detail-1200.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-detail-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "avif": "/assets/images/generated/decor/candle-holder-detail-1600.avif",
+        "webp": "/assets/images/generated/decor/candle-holder-detail-1600.webp",
+        "jpg": "/assets/images/generated/decor/candle-holder-detail-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/candle-holder-detail-1600.jpg"
+  },
+  "decor/pet-feeder-wood": {
+    "alt": "Comedouro elevado de madeira clara com dois recipientes de inox.",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/pet-feeder-wood-480.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-wood-480.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-wood-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/pet-feeder-wood-800.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-wood-800.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-wood-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/pet-feeder-wood-1200.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-wood-1200.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-wood-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "avif": "/assets/images/generated/decor/pet-feeder-wood-1600.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-wood-1600.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-wood-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/pet-feeder-wood-1600.jpg"
+  },
+  "decor/pet-feeder-white": {
+    "alt": "Comedouro elevado branco com dois recipientes de inox.",
+    "width": 1080,
+    "height": 1080,
+    "variants": [
+      {
+        "width": 480,
+        "height": 480,
+        "avif": "/assets/images/generated/decor/pet-feeder-white-480.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-white-480.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-white-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 800,
+        "avif": "/assets/images/generated/decor/pet-feeder-white-800.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-white-800.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-white-800.jpg"
+      },
+      {
+        "width": 1080,
+        "height": 1080,
+        "avif": "/assets/images/generated/decor/pet-feeder-white-1080.avif",
+        "webp": "/assets/images/generated/decor/pet-feeder-white-1080.webp",
+        "jpg": "/assets/images/generated/decor/pet-feeder-white-1080.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/pet-feeder-white-1080.jpg"
+  },
+  "decor/serving-stands-front": {
+    "alt": "Dois suportes baixos de madeira para servir ou expor objetos.",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/serving-stands-front-480.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-front-480.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-front-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/serving-stands-front-800.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-front-800.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-front-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/serving-stands-front-1200.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-front-1200.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-front-1200.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "avif": "/assets/images/generated/decor/serving-stands-front-1280.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-front-1280.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-front-1280.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/serving-stands-front-1280.jpg"
+  },
+  "decor/serving-stands-angle": {
+    "alt": "Vista em perspectiva de suportes baixos feitos em madeira.",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "avif": "/assets/images/generated/decor/serving-stands-angle-480.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-angle-480.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-angle-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "avif": "/assets/images/generated/decor/serving-stands-angle-800.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-angle-800.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-angle-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "avif": "/assets/images/generated/decor/serving-stands-angle-1200.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-angle-1200.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-angle-1200.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "avif": "/assets/images/generated/decor/serving-stands-angle-1280.avif",
+        "webp": "/assets/images/generated/decor/serving-stands-angle-1280.webp",
+        "jpg": "/assets/images/generated/decor/serving-stands-angle-1280.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/serving-stands-angle-1280.jpg"
+  },
+  "decor/tree-natural-close": {
+    "alt": "Árvore de Natal minimalista feita em madeira natural.",
+    "width": 1600,
+    "height": 2844,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "/assets/images/generated/decor/tree-natural-close-480.avif",
+        "webp": "/assets/images/generated/decor/tree-natural-close-480.webp",
+        "jpg": "/assets/images/generated/decor/tree-natural-close-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1422,
+        "avif": "/assets/images/generated/decor/tree-natural-close-800.avif",
+        "webp": "/assets/images/generated/decor/tree-natural-close-800.webp",
+        "jpg": "/assets/images/generated/decor/tree-natural-close-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 2133,
+        "avif": "/assets/images/generated/decor/tree-natural-close-1200.avif",
+        "webp": "/assets/images/generated/decor/tree-natural-close-1200.webp",
+        "jpg": "/assets/images/generated/decor/tree-natural-close-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2844,
+        "avif": "/assets/images/generated/decor/tree-natural-close-1600.avif",
+        "webp": "/assets/images/generated/decor/tree-natural-close-1600.webp",
+        "jpg": "/assets/images/generated/decor/tree-natural-close-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/tree-natural-close-1600.jpg"
+  },
+  "decor/trees-group": {
+    "alt": "Três árvores de Natal de madeira em acabamentos natural, branco e verde.",
+    "width": 1600,
+    "height": 2844,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "/assets/images/generated/decor/trees-group-480.avif",
+        "webp": "/assets/images/generated/decor/trees-group-480.webp",
+        "jpg": "/assets/images/generated/decor/trees-group-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1422,
+        "avif": "/assets/images/generated/decor/trees-group-800.avif",
+        "webp": "/assets/images/generated/decor/trees-group-800.webp",
+        "jpg": "/assets/images/generated/decor/trees-group-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 2133,
+        "avif": "/assets/images/generated/decor/trees-group-1200.avif",
+        "webp": "/assets/images/generated/decor/trees-group-1200.webp",
+        "jpg": "/assets/images/generated/decor/trees-group-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2844,
+        "avif": "/assets/images/generated/decor/trees-group-1600.avif",
+        "webp": "/assets/images/generated/decor/trees-group-1600.webp",
+        "jpg": "/assets/images/generated/decor/trees-group-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/trees-group-1600.jpg"
+  },
+  "decor/tree-decorated": {
+    "alt": "Árvore de Natal de madeira natural com pequenos enfeites pendurados.",
+    "width": 1600,
+    "height": 2844,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "/assets/images/generated/decor/tree-decorated-480.avif",
+        "webp": "/assets/images/generated/decor/tree-decorated-480.webp",
+        "jpg": "/assets/images/generated/decor/tree-decorated-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1422,
+        "avif": "/assets/images/generated/decor/tree-decorated-800.avif",
+        "webp": "/assets/images/generated/decor/tree-decorated-800.webp",
+        "jpg": "/assets/images/generated/decor/tree-decorated-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 2133,
+        "avif": "/assets/images/generated/decor/tree-decorated-1200.avif",
+        "webp": "/assets/images/generated/decor/tree-decorated-1200.webp",
+        "jpg": "/assets/images/generated/decor/tree-decorated-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2844,
+        "avif": "/assets/images/generated/decor/tree-decorated-1600.avif",
+        "webp": "/assets/images/generated/decor/tree-decorated-1600.webp",
+        "jpg": "/assets/images/generated/decor/tree-decorated-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/decor/tree-decorated-1600.jpg"
+  },
+  "about/mauricio-work": {
+    "alt": "Mauricio trabalhando a madeira com uma ferramenta manual durante o curso de marcenaria fina.",
+    "width": 960,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 480,
+        "avif": "/assets/images/generated/about/mauricio-work-480.avif",
+        "webp": "/assets/images/generated/about/mauricio-work-480.webp",
+        "jpg": "/assets/images/generated/about/mauricio-work-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 800,
+        "avif": "/assets/images/generated/about/mauricio-work-800.avif",
+        "webp": "/assets/images/generated/about/mauricio-work-800.webp",
+        "jpg": "/assets/images/generated/about/mauricio-work-800.jpg"
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "avif": "/assets/images/generated/about/mauricio-work-960.avif",
+        "webp": "/assets/images/generated/about/mauricio-work-960.webp",
+        "jpg": "/assets/images/generated/about/mauricio-work-960.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/about/mauricio-work-960.jpg"
+  },
+  "about/course-collaboration": {
+    "alt": "Mauricio e um colega prendendo peças de madeira durante o curso.",
+    "width": 960,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 480,
+        "avif": "/assets/images/generated/about/course-collaboration-480.avif",
+        "webp": "/assets/images/generated/about/course-collaboration-480.webp",
+        "jpg": "/assets/images/generated/about/course-collaboration-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 800,
+        "avif": "/assets/images/generated/about/course-collaboration-800.avif",
+        "webp": "/assets/images/generated/about/course-collaboration-800.webp",
+        "jpg": "/assets/images/generated/about/course-collaboration-800.jpg"
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "avif": "/assets/images/generated/about/course-collaboration-960.avif",
+        "webp": "/assets/images/generated/about/course-collaboration-960.webp",
+        "jpg": "/assets/images/generated/about/course-collaboration-960.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/about/course-collaboration-960.jpg"
+  },
+  "about/final-table": {
+    "alt": "Mauricio fotografando a mesa de centro concluída no curso de marcenaria fina.",
+    "width": 960,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 480,
+        "avif": "/assets/images/generated/about/final-table-480.avif",
+        "webp": "/assets/images/generated/about/final-table-480.webp",
+        "jpg": "/assets/images/generated/about/final-table-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 800,
+        "avif": "/assets/images/generated/about/final-table-800.avif",
+        "webp": "/assets/images/generated/about/final-table-800.webp",
+        "jpg": "/assets/images/generated/about/final-table-800.jpg"
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "avif": "/assets/images/generated/about/final-table-960.avif",
+        "webp": "/assets/images/generated/about/final-table-960.webp",
+        "jpg": "/assets/images/generated/about/final-table-960.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/about/final-table-960.jpg"
+  },
+  "about/final-table-affection": {
+    "alt": "Mauricio abraçando com bom humor a mesa de centro que construiu.",
+    "width": 960,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 480,
+        "avif": "/assets/images/generated/about/final-table-affection-480.avif",
+        "webp": "/assets/images/generated/about/final-table-affection-480.webp",
+        "jpg": "/assets/images/generated/about/final-table-affection-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 800,
+        "avif": "/assets/images/generated/about/final-table-affection-800.avif",
+        "webp": "/assets/images/generated/about/final-table-affection-800.webp",
+        "jpg": "/assets/images/generated/about/final-table-affection-800.jpg"
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "avif": "/assets/images/generated/about/final-table-affection-960.avif",
+        "webp": "/assets/images/generated/about/final-table-affection-960.webp",
+        "jpg": "/assets/images/generated/about/final-table-affection-960.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/about/final-table-affection-960.jpg"
+  },
+  "about/wood-selection": {
+    "alt": "Pranchas de diferentes espécies de madeira selecionadas para o curso.",
+    "width": 1600,
+    "height": 2844,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "/assets/images/generated/about/wood-selection-480.avif",
+        "webp": "/assets/images/generated/about/wood-selection-480.webp",
+        "jpg": "/assets/images/generated/about/wood-selection-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 1422,
+        "avif": "/assets/images/generated/about/wood-selection-800.avif",
+        "webp": "/assets/images/generated/about/wood-selection-800.webp",
+        "jpg": "/assets/images/generated/about/wood-selection-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 2133,
+        "avif": "/assets/images/generated/about/wood-selection-1200.avif",
+        "webp": "/assets/images/generated/about/wood-selection-1200.webp",
+        "jpg": "/assets/images/generated/about/wood-selection-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 2844,
+        "avif": "/assets/images/generated/about/wood-selection-1600.avif",
+        "webp": "/assets/images/generated/about/wood-selection-1600.webp",
+        "jpg": "/assets/images/generated/about/wood-selection-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/about/wood-selection-1600.jpg"
+  }
+}

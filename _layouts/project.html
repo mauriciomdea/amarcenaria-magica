@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="project-detail">
+  <header class="detail-hero section-pad">
+    <div class="container site-container">
+      <a class="back-link" href="{{ '/moveis-sob-medida/' | relative_url }}">← Todos os projetos</a>
+      <div class="row align-items-end gy-4 mt-1">
+        <div class="col-lg-7">
+          <p class="eyebrow">{{ page.environment }}</p>
+          <h1>{{ page.title }}</h1>
+        </div>
+        <div class="col-lg-5"><p class="lead mb-0">{{ page.summary }}</p></div>
+      </div>
+    </div>
+  </header>
+  <div class="detail-cover container-fluid px-0">
+    {% include image.html key=page.image class='detail-cover-image' eager=true sizes='100vw' %}
+  </div>
+  <section class="section-pad">
+    <div class="container site-container">
+      <div class="row gy-5">
+        <div class="col-lg-7">
+          <p class="eyebrow">O desafio</p><h2>Um projeto que nasce do espaço e da rotina</h2><p>{{ page.challenge }}</p>
+          <p class="eyebrow mt-5">A solução</p><p>{{ page.solution }}</p>
+        </div>
+        <aside class="col-lg-4 offset-lg-1 project-facts">
+          <h2 class="h4">Detalhes do projeto</h2>
+          <h3>Materiais</h3><ul>{% for item in page.materials %}<li>{{ item }}</li>{% endfor %}</ul>
+          <h3>Recursos</h3><ul>{% for item in page.features %}<li>{{ item }}</li>{% endfor %}</ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+  {% include gallery.html items=page.gallery heading='Olhares sobre o projeto' %}
+  {% include project-cta.html title='Vamos pensar seu espaço juntos?' text='Conte o que você precisa. Eu mesmo acompanho cada etapa, da primeira conversa à instalação.' location='project-detail' %}
+</article>
+

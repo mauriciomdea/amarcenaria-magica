@@ -1,0 +1,28 @@
+brand:
+  name: A Marcenaria Mágica
+  slogan: Onde madeira e imaginação ganham forma.
+  owner: Mauricio Almeida
+
+contact:
+  email: contato@amarcenariamagica.com.br
+  whatsapp_display: "+55 21 96814-5044"
+  whatsapp_number: "5521968145044"
+  instagram_handle: amarcenariamagica
+  instagram_url: https://www.instagram.com/amarcenariamagica
+
+service_areas:
+  - Barra da Tijuca
+  - Recreio dos Bandeirantes
+  - Jacarepaguá
+
+analytics:
+  ga4_id: ""
+
+marketplaces:
+  mercado_livre: ""
+  nuvemshop: ""
+
+privacy:
+  controller_legal_name: "A confirmar antes da publicação"
+  version: "1.0"
+

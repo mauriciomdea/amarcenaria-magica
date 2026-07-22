@@ -1,0 +1,21 @@
+---
+layout: null
+---
+{
+  "name": "A Marcenaria Mágica",
+  "short_name": "Marcenaria Mágica",
+  "description": "Móveis sob medida e peças autorais em madeira.",
+  "lang": "pt-BR",
+  "start_url": "{{ '/' | relative_url }}",
+  "display": "standalone",
+  "background_color": "#f6f2ec",
+  "theme_color": "#1c1a18",
+  "icons": [
+    {
+      "src": "{{ '/assets/brand/favicon.svg' | relative_url }}",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

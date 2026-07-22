@@ -1,0 +1,8 @@
+<a class="decor-card" href="{{ include.item.url | relative_url }}">
+  <div class="card-media">{% include image.html key=include.item.card_image class='card-image' sizes='(min-width: 768px) 520px, 100vw' %}</div>
+  <div class="card-body-custom">
+    <div><span class="status-badge status-{{ include.item.status | slugify }}">{{ include.item.status_label }}</span><h3 class="mt-3">{{ include.item.title }}</h3></div>
+    <span aria-hidden="true">→</span>
+  </div>
+</a>
+

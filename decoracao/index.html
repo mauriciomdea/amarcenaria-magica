@@ -1,0 +1,50 @@
+---
+title: Decoração
+description: Peças autorais e pequenos objetos de madeira criados por Mauricio Almeida, incluindo quadros, tábuas, móveis para pets e decoração sazonal.
+hero_image: decor/landscape-wide
+image: decor/landscape-wide
+gallery:
+  - decor/candle-holder-wide
+  - decor/candle-holder-detail
+  - decor/pet-feeder-wood
+  - decor/pet-feeder-white
+  - decor/serving-stands-front
+  - decor/serving-stands-angle
+  - decor/tree-natural-close
+  - decor/trees-group
+  - decor/tree-decorated
+---
+<header class="page-hero">
+  <div class="container site-container">
+    <div class="row align-items-end gy-4">
+      <div class="col-lg-7"><p class="eyebrow">Decoração</p><h1>Peças para viver perto da madeira.</h1></div>
+      <div class="col-lg-5"><p class="lead mb-0">Objetos autorais, pequenas séries e encomendas que transformam veios, volumes e sobras bonitas em presença.</p></div>
+    </div>
+    <div class="page-hero-media">{% include image.html key='decor/landscape-wide' class='page-hero-image' eager=true sizes='1080px' %}</div>
+  </div>
+</header>
+
+<section class="section-pad bg-white" aria-labelledby="decorItemsTitle">
+  <div class="container site-container">
+    <div class="row gy-4 align-items-end mb-5">
+      <div class="col-lg-7"><p class="eyebrow">Trabalhos selecionados</p><h2 class="section-title mb-0" id="decorItemsTitle">Cada peça guarda o desenho da árvore e o gesto de quem fez.</h2></div>
+      <div class="col-lg-5"><p class="text-muted-warm">Peças vendidas continuam aqui como parte do portfólio e podem inspirar novas encomendas — nunca cópias idênticas.</p></div>
+    </div>
+    <div class="decor-grid">
+      {% assign ordered_decor = site.decor | sort: 'order' %}
+      {% for item in ordered_decor %}{% include decor-card.html item=item %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include gallery.html items=page.gallery heading='Pequenos objetos, muitos usos' %}
+
+<section class="section-pad" aria-labelledby="commissionTitle">
+  <div class="container site-container">
+    <div class="row gy-5 align-items-center">
+      <div class="col-lg-7"><p class="eyebrow">Encomendas autorais</p><h2 id="commissionTitle">Gostou de uma ideia, mas imagina outro tamanho ou outra madeira?</h2></div>
+      <div class="col-lg-5"><p>Podemos conversar sobre uma peça inspirada no portfólio, respeitando os materiais disponíveis e o caráter único do trabalho manual.</p><a class="btn btn-dark mt-3" data-track="whatsapp_click" data-track-location="decor-commission" href="https://wa.me/{{ site.data.site.contact.whatsapp_number }}?text={{ 'Olá, Mauricio! Gostaria de conversar sobre uma peça autoral de decoração.' | url_encode }}" target="_blank" rel="noopener">Falar sobre uma encomenda</a></div>
+    </div>
+  </div>
+</section>
+
