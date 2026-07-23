@@ -37,7 +37,7 @@ def check_required_files() -> None:
         "index.html",
         "moveis-sob-medida/index.html",
         "decoracao/index.html",
-        "quem-somos/index.html",
+        "minha-historia/index.html",
         "privacidade/index.html",
         "404.html",
         "assets/vendor/bootstrap/bootstrap.min.css",
