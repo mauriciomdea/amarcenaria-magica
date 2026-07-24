@@ -23,7 +23,6 @@
   --wood: #7b4f32;
   --wood-dark: #4c2f20;
   --wood-pale: #eadbc9;
-  --focus: #a04f00;
   --success: #345c46;
   --shadow-sm: 0 12px 32px rgb(35 27 20 / 8%);
   --shadow-lg: 0 28px 70px rgb(35 27 20 / 16%);
@@ -101,8 +100,8 @@ p:last-child {
 }
 
 :focus-visible {
-  outline: 3px solid var(--focus) !important;
-  outline-offset: 4px;
+  outline: 1px dashed var(--ink) !important;
+  outline-offset: 3px;
 }
 
 .site-container {
@@ -1018,12 +1017,22 @@ textarea.form-control {
   right: 0;
   bottom: 0;
   left: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+  max-height: 100dvh;
   padding: 1rem;
+  overflow-x: hidden;
+  overflow-y: auto;
   color: var(--ink);
   background: rgb(246 242 236 / 97%);
   border-top: 1px solid #bcb1a7;
   box-shadow: 0 -20px 50px rgb(28 26 24 / 12%);
   backdrop-filter: blur(16px);
+  overscroll-behavior: contain;
+}
+
+.consent-panel:focus {
+  outline: none !important;
 }
 
 .consent-inner {
@@ -1031,7 +1040,13 @@ textarea.form-control {
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 1.2rem 2rem;
   width: min(100%, 1080px);
+  min-width: 0;
   margin: auto;
+}
+
+.consent-copy,
+.consent-actions {
+  min-width: 0;
 }
 
 .consent-copy h2 {
@@ -1050,6 +1065,14 @@ textarea.form-control {
   grid-template-columns: repeat(3, 1fr);
   align-self: center;
   gap: .65rem;
+}
+
+.consent-actions .btn:focus-visible {
+  color: var(--paper);
+  background: var(--ink);
+  border-color: var(--ink);
+  outline: none !important;
+  box-shadow: none;
 }
 
 .consent-save {
@@ -1146,17 +1169,37 @@ textarea.form-control {
     min-height: 80px;
   }
 
+  .brand-lockup {
+    flex: 1 1 calc(100% - 54px);
+    min-width: 0;
+    margin-right: .5rem;
+    gap: .75rem;
+  }
+
+  .brand-lockup span {
+    min-width: 0;
+  }
+
   .brand-lockup img {
     width: 55px;
     height: 55px;
   }
 
   .brand-lockup strong {
-    font-size: 1.15rem;
+    overflow: hidden;
+    font-size: clamp(1rem, 4.8vw, 1.15rem);
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
   .brand-lockup small {
     font-size: .82rem;
+    white-space: nowrap;
+  }
+
+  .navbar-toggler {
+    flex: 0 0 46px;
+    margin-left: auto;
   }
 
   .hero {
@@ -1236,11 +1279,33 @@ textarea.form-control {
 
   .consent-actions {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .consent-actions .btn,
   .consent-save {
     grid-column: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .consent-panel {
+    max-height: calc(100dvh - env(safe-area-inset-top, 0px));
+    padding: .85rem;
+    padding-bottom: calc(.85rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .consent-inner {
+    gap: 1rem;
+  }
+
+  .consent-copy h2 {
+    font-size: clamp(1.35rem, 7vw, 1.75rem);
+    overflow-wrap: anywhere;
+  }
+
+  .consent-copy p:not(.eyebrow) {
+    font-size: .9rem;
   }
 
   .whatsapp-floating span {

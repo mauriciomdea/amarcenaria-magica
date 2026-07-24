@@ -89,8 +89,7 @@
     if (analyticsToggle) analyticsToggle.checked = Boolean(currentConsent && currentConsent.analytics);
     setCustomize(Boolean(customize));
     window.setTimeout(function () {
-      const firstButton = consentPanel.querySelector("button:not([hidden])");
-      if (firstButton) firstButton.focus();
+      consentPanel.focus({ preventScroll: true });
     }, 0);
   }
 
@@ -214,4 +213,3 @@
     });
   }
 })();
-
