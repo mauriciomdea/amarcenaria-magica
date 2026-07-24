@@ -167,13 +167,13 @@ p:last-child {
 }
 
 .navbar {
-  min-height: 82px;
+  min-height: 92px;
 }
 
 .brand-lockup {
   display: inline-flex;
   align-items: center;
-  gap: .8rem;
+  gap: 1rem;
   color: var(--ink);
   white-space: normal;
 }
@@ -190,15 +190,15 @@ p:last-child {
 }
 
 .brand-lockup strong {
-  font-size: 1.07rem;
+  font-size: 1.28rem;
   font-weight: 650;
   line-height: 1.08;
 }
 
 .brand-lockup small {
-  margin-top: .2rem;
+  margin-top: .24rem;
   color: var(--muted);
-  font-size: .73rem;
+  font-size: .88rem;
   letter-spacing: .04em;
 }
 
@@ -1114,20 +1114,20 @@ textarea.form-control {
   }
 
   .navbar {
-    min-height: 72px;
+    min-height: 80px;
   }
 
   .brand-lockup img {
-    width: 46px;
-    height: 46px;
+    width: 55px;
+    height: 55px;
   }
 
   .brand-lockup strong {
-    font-size: .96rem;
+    font-size: 1.15rem;
   }
 
   .brand-lockup small {
-    font-size: .68rem;
+    font-size: .82rem;
   }
 
   .hero {
