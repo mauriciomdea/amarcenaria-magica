@@ -44,10 +44,34 @@ def check_required_files() -> None:
         "assets/vendor/bootstrap/bootstrap.bundle.min.js",
         "assets/css/main.css",
         "assets/js/main.js",
+        "assets/brand/logo-original.png",
+        "assets/brand/logo-negative-original.png",
+        "assets/brand/favicon-32x32.png",
+        "assets/brand/apple-touch-icon.png",
+        "assets/brand/favicon-192x192.png",
+        "assets/brand/favicon-512x512.png",
     ]
     for relative in required:
         if not (ROOT / relative).exists():
             error(f"Missing required file: {relative}")
+
+
+def check_brand_assets() -> None:
+    expected_sizes = {
+        "assets/brand/logo-original.png": (540, 540),
+        "assets/brand/logo-negative-original.png": (520, 520),
+        "assets/brand/favicon-32x32.png": (32, 32),
+        "assets/brand/apple-touch-icon.png": (180, 180),
+        "assets/brand/favicon-192x192.png": (192, 192),
+        "assets/brand/favicon-512x512.png": (512, 512),
+    }
+    for relative, expected_size in expected_sizes.items():
+        path = ROOT / relative
+        if not path.exists():
+            continue
+        with Image.open(path) as image:
+            if image.size != expected_size:
+                error(f"Unexpected dimensions for {relative}: {image.size}")
 
 
 def check_media() -> dict:
@@ -137,6 +161,7 @@ def check_video() -> None:
 
 def main() -> int:
     check_required_files()
+    check_brand_assets()
     manifest = check_media()
     check_media_references(manifest)
     check_external_runtime_dependencies()

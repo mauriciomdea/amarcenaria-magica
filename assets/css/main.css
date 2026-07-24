@@ -180,6 +180,7 @@ p:last-child {
 
 .brand-lockup img {
   flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .brand-lockup span,
@@ -870,6 +871,7 @@ textarea.form-control {
 
 .footer-brand img {
   filter: invert(1);
+  object-fit: contain;
 }
 
 .footer-brand strong {
@@ -1218,4 +1220,3 @@ textarea.form-control {
     animation-iteration-count: 1 !important;
   }
 }
-
