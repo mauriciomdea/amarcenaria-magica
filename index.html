@@ -1,17 +1,16 @@
 ---
 title: A Marcenaria Mágica
-description: Móveis sob medida e peças autorais em madeira, criados por Mauricio Almeida com atendimento direto no Rio de Janeiro.
-hero_image: projects/table-hero
-image: projects/table-hero
+description: Móveis sob medida e decoração com atendimento personalizado e magia em cada detalhe.
+hero_image: home/landscape-favorite
+image: home/landscape-favorite
 ---
 <section class="hero">
   <div class="container site-container">
     <div class="row align-items-center gy-4">
       <div class="col-lg-6">
         <div class="hero-copy">
-          <p class="eyebrow">Marcenaria autoral no Rio de Janeiro</p>
-          <h1>Onde madeira e imaginação ganham forma.</h1>
-          <p class="lead">Móveis e objetos criados para a sua rotina, com atendimento pessoal e cuidado em cada detalhe.</p>
+          <h1>Onde sua imaginação ganha forma</h1>
+          <p class="lead">Móveis sob medida e decoração com atendimento personalizado e magia em cada detalhe.</p>
           <div class="hero-actions">
             <a class="btn btn-dark btn-lg" href="{{ '/moveis-sob-medida/' | relative_url }}">Conheça os projetos {% include icon.html name='arrow' %}</a>
             <a class="btn btn-outline-dark btn-lg" data-track="whatsapp_click" data-track-location="home-hero" href="https://wa.me/{{ site.data.site.contact.whatsapp_number }}?text={{ 'Olá, Mauricio! Conheci o site e gostaria de conversar sobre um projeto.' | url_encode }}" target="_blank" rel="noopener">Fale comigo</a>
@@ -20,8 +19,14 @@ image: projects/table-hero
       </div>
       <div class="col-lg-6">
         <div class="hero-visual">
-          {% include image.html key='projects/table-hero' class='hero-main-image' picture_class='hero-picture' eager=true sizes='(min-width: 992px) 540px, 100vw' %}
-          <p class="hero-note">Madeira maciça, ferragens e painéis usados de acordo com o que cada projeto realmente pede.</p>
+          <div class="hero-mosaic" aria-label="Seleção de trabalhos da A Marcenaria Mágica">
+            <div class="hero-mosaic-item hero-mosaic-landscape">{% include image.html key='home/landscape-favorite' class='hero-mosaic-image' eager=true sizes='(min-width: 992px) 360px, (min-width: 768px) 66vw, 100vw' %}</div>
+            <div class="hero-mosaic-item hero-mosaic-cat">{% include image.html key='decor/cat-house-portrait' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</div>
+            <div class="hero-mosaic-item hero-mosaic-kitchen-main">{% include image.html key='projects/kitchen-white-wood-angle' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</div>
+            <div class="hero-mosaic-item hero-mosaic-kitchen-upper">{% include image.html key='projects/kitchen-upper-lower' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</div>
+            <div class="hero-mosaic-item hero-mosaic-board">{% include image.html key='home/board-favorite' class='hero-mosaic-image' sizes='(min-width: 992px) 360px, (min-width: 768px) 66vw, 100vw' %}</div>
+            <div class="hero-mosaic-item hero-mosaic-kitchen-wide">{% include image.html key='projects/kitchen-white-countertop' class='hero-mosaic-image' sizes='(min-width: 992px) 540px, 100vw' %}</div>
+          </div>
         </div>
       </div>
     </div>

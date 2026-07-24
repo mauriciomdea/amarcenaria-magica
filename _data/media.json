@@ -1,4 +1,76 @@
 {
+  "home/board-favorite": {
+    "alt": "Tábua artesanal de madeira com cogumelos e tomates fatiados.",
+    "width": 1600,
+    "height": 1195,
+    "variants": [
+      {
+        "width": 480,
+        "height": 358,
+        "avif": "/assets/images/generated/home/board-favorite-480.avif",
+        "webp": "/assets/images/generated/home/board-favorite-480.webp",
+        "jpg": "/assets/images/generated/home/board-favorite-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 597,
+        "avif": "/assets/images/generated/home/board-favorite-800.avif",
+        "webp": "/assets/images/generated/home/board-favorite-800.webp",
+        "jpg": "/assets/images/generated/home/board-favorite-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 896,
+        "avif": "/assets/images/generated/home/board-favorite-1200.avif",
+        "webp": "/assets/images/generated/home/board-favorite-1200.webp",
+        "jpg": "/assets/images/generated/home/board-favorite-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1195,
+        "avif": "/assets/images/generated/home/board-favorite-1600.avif",
+        "webp": "/assets/images/generated/home/board-favorite-1600.webp",
+        "jpg": "/assets/images/generated/home/board-favorite-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/home/board-favorite-1600.jpg"
+  },
+  "home/landscape-favorite": {
+    "alt": "Quadro autoral em madeira representando uma paisagem de montanhas.",
+    "width": 1600,
+    "height": 1075,
+    "variants": [
+      {
+        "width": 480,
+        "height": 322,
+        "avif": "/assets/images/generated/home/landscape-favorite-480.avif",
+        "webp": "/assets/images/generated/home/landscape-favorite-480.webp",
+        "jpg": "/assets/images/generated/home/landscape-favorite-480.jpg"
+      },
+      {
+        "width": 800,
+        "height": 538,
+        "avif": "/assets/images/generated/home/landscape-favorite-800.avif",
+        "webp": "/assets/images/generated/home/landscape-favorite-800.webp",
+        "jpg": "/assets/images/generated/home/landscape-favorite-800.jpg"
+      },
+      {
+        "width": 1200,
+        "height": 806,
+        "avif": "/assets/images/generated/home/landscape-favorite-1200.avif",
+        "webp": "/assets/images/generated/home/landscape-favorite-1200.webp",
+        "jpg": "/assets/images/generated/home/landscape-favorite-1200.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 1075,
+        "avif": "/assets/images/generated/home/landscape-favorite-1600.avif",
+        "webp": "/assets/images/generated/home/landscape-favorite-1600.webp",
+        "jpg": "/assets/images/generated/home/landscape-favorite-1600.jpg"
+      }
+    ],
+    "fallback": "/assets/images/generated/home/landscape-favorite-1600.jpg"
+  },
   "projects/table-hero": {
     "alt": "Mesa de madeira maciça com veios marcantes e base metálica preta.",
     "width": 1562,

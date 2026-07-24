@@ -21,6 +21,14 @@ TARGET_WIDTHS = (480, 800, 1200, 1600)
 
 
 MEDIA = {
+    "home/board-favorite": (
+        SCREENSHOT_ROOT / "Captura de tela 2026-07-22 143018.png",
+        "Tábua artesanal de madeira com cogumelos e tomates fatiados.",
+    ),
+    "home/landscape-favorite": (
+        PHOTO_ROOT / "a129b927-b151-474a-84ec-b7e1f417dbd0.jpg",
+        "Quadro autoral em madeira representando uma paisagem de montanhas.",
+    ),
     "projects/table-hero": (
         PHOTO_ROOT / "94202C84-DC26-44D7-B0C2-F21601EE2FC3.jpg",
         "Mesa de madeira maciça com veios marcantes e base metálica preta.",
