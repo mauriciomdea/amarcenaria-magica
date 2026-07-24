@@ -20,12 +20,18 @@ image: home/landscape-favorite
       <div class="col-lg-6">
         <div class="hero-visual">
           <div class="hero-mosaic" aria-label="Seleção de trabalhos da A Marcenaria Mágica">
-            <div class="hero-mosaic-item hero-mosaic-landscape">{% include image.html key='home/landscape-favorite' class='hero-mosaic-image' eager=true sizes='(min-width: 992px) 360px, (min-width: 768px) 66vw, 100vw' %}</div>
-            <div class="hero-mosaic-item hero-mosaic-cat">{% include image.html key='decor/cat-house-portrait' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</div>
-            <div class="hero-mosaic-item hero-mosaic-kitchen-main">{% include image.html key='projects/kitchen-white-wood-angle' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</div>
-            <div class="hero-mosaic-item hero-mosaic-kitchen-upper">{% include image.html key='projects/kitchen-upper-lower' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</div>
-            <div class="hero-mosaic-item hero-mosaic-board">{% include image.html key='home/board-favorite' class='hero-mosaic-image' sizes='(min-width: 992px) 360px, (min-width: 768px) 66vw, 100vw' %}</div>
-            <div class="hero-mosaic-item hero-mosaic-kitchen-wide">{% include image.html key='projects/kitchen-white-countertop' class='hero-mosaic-image' sizes='(min-width: 992px) 540px, 100vw' %}</div>
+            {% assign mosaic_media = site.data.media['home/landscape-favorite'] %}
+            <button class="hero-mosaic-item hero-mosaic-landscape gallery-trigger" type="button" data-full="{{ mosaic_media.fallback | relative_url }}" data-alt="{{ mosaic_media.alt | escape }}" aria-label="Ampliar: {{ mosaic_media.alt | escape }}">{% include image.html key='home/landscape-favorite' class='hero-mosaic-image' eager=true sizes='(min-width: 992px) 360px, (min-width: 768px) 66vw, 100vw' %}</button>
+            {% assign mosaic_media = site.data.media['decor/cat-house-portrait'] %}
+            <button class="hero-mosaic-item hero-mosaic-cat gallery-trigger" type="button" data-full="{{ mosaic_media.fallback | relative_url }}" data-alt="{{ mosaic_media.alt | escape }}" aria-label="Ampliar: {{ mosaic_media.alt | escape }}">{% include image.html key='decor/cat-house-portrait' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</button>
+            {% assign mosaic_media = site.data.media['projects/kitchen-white-wood-angle'] %}
+            <button class="hero-mosaic-item hero-mosaic-kitchen-main gallery-trigger" type="button" data-full="{{ mosaic_media.fallback | relative_url }}" data-alt="{{ mosaic_media.alt | escape }}" aria-label="Ampliar: {{ mosaic_media.alt | escape }}">{% include image.html key='projects/kitchen-white-wood-angle' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</button>
+            {% assign mosaic_media = site.data.media['projects/kitchen-upper-lower'] %}
+            <button class="hero-mosaic-item hero-mosaic-kitchen-upper gallery-trigger" type="button" data-full="{{ mosaic_media.fallback | relative_url }}" data-alt="{{ mosaic_media.alt | escape }}" aria-label="Ampliar: {{ mosaic_media.alt | escape }}">{% include image.html key='projects/kitchen-upper-lower' class='hero-mosaic-image' sizes='(min-width: 992px) 180px, (min-width: 768px) 33vw, 50vw' %}</button>
+            {% assign mosaic_media = site.data.media['home/board-favorite'] %}
+            <button class="hero-mosaic-item hero-mosaic-board gallery-trigger" type="button" data-full="{{ mosaic_media.fallback | relative_url }}" data-alt="{{ mosaic_media.alt | escape }}" aria-label="Ampliar: {{ mosaic_media.alt | escape }}">{% include image.html key='home/board-favorite' class='hero-mosaic-image' sizes='(min-width: 992px) 360px, (min-width: 768px) 66vw, 100vw' %}</button>
+            {% assign mosaic_media = site.data.media['projects/kitchen-white-countertop'] %}
+            <button class="hero-mosaic-item hero-mosaic-kitchen-wide gallery-trigger" type="button" data-full="{{ mosaic_media.fallback | relative_url }}" data-alt="{{ mosaic_media.alt | escape }}" aria-label="Ampliar: {{ mosaic_media.alt | escape }}">{% include image.html key='projects/kitchen-white-countertop' class='hero-mosaic-image' sizes='(min-width: 992px) 540px, 100vw' %}</button>
           </div>
         </div>
       </div>

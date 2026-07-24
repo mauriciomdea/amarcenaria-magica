@@ -371,10 +371,13 @@ p:last-child {
 
 .hero-mosaic-item {
   min-width: 0;
+  padding: 0;
   overflow: hidden;
+  background: #e7dfd4;
   border: 4px solid var(--paper);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
+  cursor: zoom-in;
 }
 
 .hero-mosaic-item picture,
@@ -385,6 +388,11 @@ p:last-child {
 
 .hero-mosaic-image {
   object-fit: cover;
+  transition: transform .35s ease;
+}
+
+.hero-mosaic-item:hover .hero-mosaic-image {
+  transform: scale(1.025);
 }
 
 .hero-mosaic-landscape {
