@@ -344,13 +344,6 @@ p:last-child {
   gap: .8rem;
 }
 
-.hero-service-area {
-  margin: 1rem 0 0;
-  color: var(--muted);
-  font-size: .95rem;
-  font-weight: 650;
-}
-
 .hero-visual {
   position: relative;
   min-height: 600px;
